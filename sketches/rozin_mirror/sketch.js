@@ -45,7 +45,7 @@ function draw() {
         stroke(0);
         strokeWeight(0.25);
         if(brightness > threshold) {
-          fill(0, 0, 255);
+          fill(255, 0, 0);
         } else {
           fill(c);
         }
